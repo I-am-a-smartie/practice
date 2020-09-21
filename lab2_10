@@ -1,0 +1,51 @@
+//
+//  main2.cpp
+//  Beginner
+//
+//  Created by Lakshmi Kantham on 02/04/20.
+//  Copyright © 2020 Lakshmi Kantham. All rights reserved.
+//
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(int argc, const char * argv[]) {
+    
+    double s1;
+    double s2;
+    double s3;
+    double s4;
+    double s5;
+    int total;
+    int average;
+    int percentage;
+    
+    cout << "Enter the marks in each subject\n";
+    cout << "English\n";
+    cin >> s1;
+    
+    cout << "Sanskrit";
+    cin >> s2;
+    
+    cout << "Science";
+    cin >> s3;
+    
+    cout << "Social Science";
+    cin >> s4;
+    
+    cout << "Mathematics";
+    cin >> s5;
+    
+    cout << "Total marks: ";
+    total = s1+s2+s3+s4+s5;
+    cout << total;
+    
+    cout << "Average: ";
+    average = (s1+s2+s3+s4+s5)/5;
+    cout << average ;
+    
+    cout << "Percentage: ";
+    percentage = (total/500)*100;
+    cout << percentage;
+}
