@@ -1,0 +1,36 @@
+//
+//  main2.cpp
+//  Beginner
+//
+//  Created by Lakshmi Kantham on 02/04/20.
+//  Copyright © 2020 Lakshmi Kantham. All rights reserved.
+//
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(int argc, const char * argv[]) {
+    
+    
+    double principle;
+    double rate;
+    double interest;
+    double simple_interest;
+    
+    cout << "Enter Principle\n";
+    cin >> principle;
+    
+    cout << "Enter Rate\n";
+    cin >> rate;
+    
+    cout << "Enter Interest\n";
+    cin >> interest;
+    
+    simple_interest = principle*rate*interest/100;
+    
+    cout << "Simple Interest is\n";
+    cout << simple_interest;
+    
+    
+}
